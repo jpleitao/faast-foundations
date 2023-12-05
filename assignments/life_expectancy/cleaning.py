@@ -8,10 +8,6 @@ import re
 import pandas as pd
 
 
-"""
-Module for data cleaning operations
-"""
-
 __author__ = "Joaquim Leitão"
 __email__ = "joaquim.leitao@nos.pt"
 
@@ -81,4 +77,3 @@ if __name__ == "__main__":
         COUNTRY = None
 
     clean_data(COUNTRY)
-    
